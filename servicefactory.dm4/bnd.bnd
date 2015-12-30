@@ -1,0 +1,10 @@
+-buildpath: \
+	osgi.core; version=5.0,\
+	osgi.cmpn; version=5.0,\
+	servicefactory.api;version=latest,\
+	org.apache.felix.dependencymanager;version='[4,5)'
+
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package: servicefactory.dm4
+Import-Package: *
+Bundle-Activator: servicefactory.dm4.Activator
